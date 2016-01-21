@@ -130,6 +130,9 @@ img{
   height: 250px;
 }
 
+.box1 p{
+  padding: 5px;
+}
 
 
 .box2{
@@ -138,4 +141,8 @@ img{
   padding-bottom: 15px;
   background-color: #f2f1f1;
   height: 250px;
+}
+
+.box2 p{
+  padding: 5px;
 }
