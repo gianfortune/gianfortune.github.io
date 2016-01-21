@@ -11,9 +11,7 @@ body{
   color:#17f9db;
 }
 
-#designs{
-  padding-left: 10%;
-}
+
 
 a:hover{
   color: #ef6839;
@@ -70,6 +68,11 @@ a:hover{
   background-color: white;
   font-size: 17px;
 
+}
+
+.designs{
+  padding-left: 10%;
+  text-align: left !important;
 }
 
 #statement h4{
