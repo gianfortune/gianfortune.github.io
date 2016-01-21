@@ -11,8 +11,30 @@ body{
   color:#17f9db;
 }
 
+#designs{
+  padding-left: 10%;
+}
+
 a:hover{
   color: #ef6839;
+}
+
+#information h4{
+  color: #5a6474;
+  font-weight: bold;
+  padding-left: 5%;
+}
+
+#information p{
+  padding-left: 5%;
+}
+
+#information{
+  margin-left: 20%;
+}
+
+#information img{
+  padding-right: 30px;
 }
 
 #title{
