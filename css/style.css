@@ -145,6 +145,13 @@ img{
   float: left;
 }
 
+.gamehub{
+  padding-left: 4% !important;
+}
+
+.gamehub img{
+  margin-right: 2%;
+}
 
 .box2{
   padding-left: 5px;
