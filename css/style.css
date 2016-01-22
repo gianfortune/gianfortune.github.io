@@ -141,6 +141,10 @@ img{
   padding: 5px;
 }
 
+.back{
+  float: left;
+}
+
 
 .box2{
   padding-left: 5px;
