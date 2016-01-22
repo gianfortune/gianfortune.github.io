@@ -164,3 +164,12 @@ img{
 .box2 p{
   padding: 5px;
 }
+
+.contact{
+  margin-left: 20%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.contact img{
+  margin-right: 40px;
+}
