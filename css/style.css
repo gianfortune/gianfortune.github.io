@@ -1,20 +1,24 @@
 body{
-  background-color: #F3F6F6;
+  background-color: #086365;
   color:#2E2623;
   font-size: 16px;
   font-family: 'PT Sans', sans-serif;
 }
 
-#wave {
+.wave {
   position: absolute;
   width: 100%;
-  height: 50vh;
+  height: 400px;
   z-index: -4;
-  transform: skewY(-6deg);
+  transform: skewY(-11deg);
   transform-origin: bottom left;
   background: #11999E;
   background: -webkit-linear-gradient(to top, #11999E, #30E3CA);
   background: linear-gradient(to top, #11999E, #30E3CA);
+}
+
+img {
+  float: left;
 }
 
 .information {
@@ -22,8 +26,28 @@ body{
   justify-content: center;
   align-items: center;
   position: relative;
-  height: 50vh;
+  height: 100%;
   text-align: center;
+}
+
+.information_list-elm--header {
+  font-size: 170%;
+  font-weight: bold;
+}
+
+.information_list {
+  text-align: left;
+  color: white
+}
+
+.information_container {
+  height: 350px;
+}
+
+.information__img {
+  margin-left: auto;
+  margin-bottom: auto;
+  height: 350px;
 }
 
 .information h4{
@@ -39,7 +63,7 @@ body{
 }
 
 a:hover{
-  color: #40514E;
+  color: #086365;
 }
 
 .nav__title{
@@ -73,7 +97,6 @@ a:hover{
 }
 
 .statement{
-  padding-right: 13%;
   padding-top: 30px;
   padding-bottom: 40px;
   text-align: center;
@@ -103,9 +126,6 @@ a:hover{
 ul{
   text-decoration: none;
   list-style-type: none;
-}
-img{
-  float: left;
 }
 
 .portfolio img{
@@ -166,7 +186,7 @@ img{
   padding-left: 5px;
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #e0ecec;
+  background-color: #d0e2e2;
   height: 250px;
 }
 
@@ -175,10 +195,7 @@ img{
 }
 
 .contact{
-  margin-left: 20%;
   padding-top: 4%;
   padding-bottom: 4%;
-}
-.contact img{
-  margin-right: 40px;
+  text-align: left;
 }
