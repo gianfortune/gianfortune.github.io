@@ -1,20 +1,24 @@
 body{
-  background-color: #F3F6F6;
+  background-color: #B7E0E1;
   color:#2E2623;
   font-size: 16px;
   font-family: 'PT Sans', sans-serif;
 }
 
-#wave {
+.wave {
   position: absolute;
   width: 100%;
-  height: 50vh;
+  height: 400px;
   z-index: -4;
-  transform: skewY(-6deg);
+  transform: skewY(-11deg);
   transform-origin: bottom left;
   background: #11999E;
   background: -webkit-linear-gradient(to top, #11999E, #30E3CA);
   background: linear-gradient(to top, #11999E, #30E3CA);
+}
+
+img {
+  float: left;
 }
 
 .information {
@@ -22,8 +26,18 @@ body{
   justify-content: center;
   align-items: center;
   position: relative;
-  height: 50vh;
+  height: 100%;
   text-align: center;
+}
+
+.information_container {
+  height: 350px;
+}
+
+.information__img {
+  margin-left: auto;
+  margin-bottom: auto;
+  height: 350px;
 }
 
 .information h4{
@@ -104,9 +118,6 @@ ul{
   text-decoration: none;
   list-style-type: none;
 }
-img{
-  float: left;
-}
 
 .portfolio img{
   float: none !important;
@@ -166,7 +177,7 @@ img{
   padding-left: 5px;
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #e0ecec;
+  background-color: #d0e2e2;
   height: 250px;
 }
 
