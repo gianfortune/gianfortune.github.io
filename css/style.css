@@ -1,5 +1,5 @@
 body{
-  background-color: #086365;
+  background-color: #247BA0;
   color:#2E2623;
   font-size: 16px;
   font-family: 'PT Sans', sans-serif;
@@ -12,9 +12,7 @@ body{
   z-index: -4;
   transform: skewY(-11deg);
   transform-origin: bottom left;
-  background: #11999E;
-  background: -webkit-linear-gradient(to top, #11999E, #30E3CA);
-  background: linear-gradient(to top, #11999E, #30E3CA);
+  background: #247BA0;
 }
 
 img {
@@ -37,11 +35,6 @@ img {
 
 .information_list {
   text-align: left;
-  color: white
-}
-
-.information_container {
-  height: 350px;
 }
 
 .information__img {
@@ -59,11 +52,7 @@ img {
 
 .nav a{
   font-family: 'Josefin Sans', sans-serif;
-  color:#11999E;
-}
-
-a:hover{
-  color: #086365;
+  color:#247BA0;
 }
 
 .nav__title{
@@ -77,7 +66,7 @@ a:hover{
 .nav__links a{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
-  color:#40514E;
+  color:#FF1654;
 }
 
 .nav__links{
@@ -138,31 +127,82 @@ ul{
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #30E3CA;
+  background-color: #247BA0;
 }
 
 #footer a{
   display: inline;
   padding-left: 5px;
   padding-right: 5px;
-  color: #40514E;
+  color: #F3F6F6;
 }
 
 #footer a:hover{
-  color:#F3F6F6;
+  color: #E9FC97;
 }
 
 .logo{
+  max-width: 200px;
   padding-right: 15px;
 }
 
+.summary-block {
+  background-color: #E6F7EB;
+}
+
+.summary {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: 0 -15px;
+  min-height: 500px;
+  font-weight: bold;
+}
+
+.summary--light {
+  background-color: rgba(0, 0, 0,.1);
+}
+
+.summary--red {
+  background-color: rgba(255, 22, 84,.7);
+}
+
+.summary--blue {
+  background-color: rgba(36,123,160,.7);
+}
+
+.summary--green {
+  background-color: rgba(233,252,151,.6);
+}
+
+.summary--design {
+  background-image: url('../img/summary/summary-design.png');
+}
+
+.summary--code {
+  background-image: url('../img/summary/summary-code.jpg');
+}
+.summary--art {
+  background-image: url('../img/summary/summary-art.jpg');
+  background-position: top;
+}
+
+.divider-bar {
+  background-color: white;
+  min-height: 30px;
+}
+
+.box-child {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255,255 ,.6);
+}
 
 .box1{
-  padding-left: 5px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: #e6eeee;
-  height: 20%;
+  background-color: rgba(255,255,255,1);
   height: 250px;
 }
 
@@ -183,10 +223,7 @@ ul{
 }
 
 .box2{
-  padding-left: 5px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: #d0e2e2;
+  background-color: rgba(255,255, 255, 0.95);
   height: 250px;
 }
 
