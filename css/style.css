@@ -88,7 +88,6 @@ img {
 .statement{
   padding-top: 30px;
   padding-bottom: 40px;
-  text-align: center;
   background-color: #F3F6F6;
   font-size: 17px;
 }
@@ -160,6 +159,14 @@ ul{
   font-weight: bold;
 }
 
+.summary a {
+  color: white;
+}
+
+.summary a:hover {
+  color: white;
+}
+
 .summary--light {
   background-color: rgba(0, 0, 0,.1);
 }
@@ -215,7 +222,8 @@ ul{
 }
 
 .gamehub{
-  padding-left: 4% !important;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .gamehub img{
